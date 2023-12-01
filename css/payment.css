@@ -1,0 +1,43 @@
+.payment {
+    width: 60%;
+    margin: auto;
+}
+
+.pay-form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-input {
+    border: none;
+    background-color: #F0F0F0;
+    padding: 1em 2em;
+    border-radius: 2em;
+}
+
+.pay-button {
+    width: 20%;
+    margin: 1em auto;
+    border: none;
+    background-color: red;
+    padding: 0em 4em;
+    color: white;
+    border-radius: 1em;
+}
+
+.pay-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

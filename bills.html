@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bills.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="left">
+            <img src="./assets/ces-small-logo.png" alt="" class="nav-logo">
+            <a href="" class="nav-items">Layanan</a>
+            <a href="" class="nav-items">Informasi</a>
+            <a href="" class="nav-items">Forum</a>
+        </div>
+        <div class="right">
+            <a href="" id="login-button" class="nav-items">Login</a>
+        </div>
+    </nav>
+
+    <section class="vehicle-data">
+        <h2>Data Kendaraan</h2>
+        <div class="vdata-item">
+            <p class="vdata-title">Nama Pemilik</p>
+            <p class="vdata-value">Mukhammad Rizki</p>
+        </div>
+        <div class="vdata-item">
+            <p class="vdata-title">NIK Pemilik</p>
+            <p class="vdata-value">082111633057</p>
+        </div>
+        <div class="vdata-item">
+            <p class="vdata-title">Model Kendaraan</p>
+            <p class="vdata-value">Aventador</p>
+        </div>
+        <div class="vdata-item">
+            <p class="vdata-title">Merk Kendaraan</p>
+            <p class="vdata-value">Lamborghini</p>
+        </div>
+        <div class="vdata-item">
+            <p class="vdata-title">Tahun Kendaraan</p>
+            <p class="vdata-value">2014</p>
+        </div>
+    </section>
+
+    <section class="bills">
+        <h2>Rincian Tagihan</h2>
+        <div class="bill-item">
+            <p class="bill-title">Pajak</p>
+            <p class="bill-value">Rp 100.000.000</p>
+        </div>
+        <div class="bill-item">
+            <p class="bill-title">Biaya Admin</p>
+            <p class="bill-value">Rp 100.000</p>
+        </div>
+        <hr>
+        <div class="bill-item">
+            <p class="bill-title">Total</p>
+            <p class="bill-value">Rp 100.100.000</p>
+        </div>
+        <button class="pay-button" onclick="window.location='payment-method.html'">
+            <p>Bayar</p>
+        </button>
+    </section>
+
+</body>
+</html>

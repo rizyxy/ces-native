@@ -1,0 +1,110 @@
+.introduction {
+    background-image: url('../assets/intro-img.jpg');
+    background-size: contain;
+    text-align: center;
+    color: white;
+    padding: 5em;
+}
+
+#ces-intro {
+    color: red;
+}
+
+.intro-detail {
+    margin: auto;
+    text-align: center;
+    max-width: 52%;
+}
+
+.intro-button {
+    cursor: pointer;
+    margin-top: 2em;
+    border: 1px solid white;
+    border-radius: 2em;
+    padding: 0em 5em;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;   
+}
+
+.intro-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.details {
+    background-color: #F7F7F7;
+    padding: 5em;
+    text-align: center;
+    gap: 4em;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.detail {
+    flex: 0.4;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+}
+
+#faq-right {
+    flex: 3;
+    padding: 2em;
+}
+
+#faq-left {
+    flex: 2;
+}
+
+#faq-left > img {
+    width: 100%;
+}
+
+.faq-button {
+    cursor: pointer;
+    border: 1.5px solid black;
+    color: black;
+    background-color: transparent;
+    padding: 0em 4em;
+    border-radius: 1em;
+}
+
+.faq-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.pay {
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 3em;
+}
+
+.pay-button {
+    border: none;
+    background-color: red;
+    padding: 0em 4em;
+    color: white;
+    border-radius: 1em;
+}
+
+.footer {
+    text-align: center;
+    padding: 4em;
+    background-color: black;
+}
+
+.footer > .tools > a {
+    text-decoration: none;
+    color: white;
+}
+
+.tools {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
